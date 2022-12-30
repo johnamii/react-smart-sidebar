@@ -1,6 +1,9 @@
 {
-  "name": "react-smart-sidebar",
-  "version": "1.0.0",
+  "name": "@johnamii/react-smart-sidebar",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/johnamii"
+  },
+  "version": "0.0.1",
   "description": "A professional grade sidebar component to organize different links in your website.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
