@@ -1,0 +1,41 @@
+{
+  "name": "react-smart-sidebar",
+  "version": "1.0.0",
+  "description": "A professional grade sidebar component to organize different links in your website.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnamii/react-smart-sidebar.git"
+  },
+  "keywords": [
+    "sidebar"
+  ],
+  "author": "John Flanagan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnamii/react-smart-sidebar/issues"
+  },
+  "homepage": "https://github.com/johnamii/react-smart-sidebar#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "rollup": "^3.9.0",
+    "rollup-plugin-dts": "^5.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
