@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/johnamii"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A professional grade sidebar component to organize different links in your website.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/johnamii/react-smart-sidebar#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-image": "^3.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^10.0.1",
     "@types/react": "^18.0.26",
