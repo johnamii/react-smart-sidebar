@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import './sidebar.css'
 
-  const menuLogo = require('../../assets/menu.png');
-  const downLogo = require('../../assets/down_arrow.png')
+import menuLogo from '../../assets/menu.png'
+import downLogo from '../../assets/down_arrow.png'
+
+  // const menuLogo = require('../../assets/menu.png');
+  // const downLogo = require('../../assets/down_arrow.png')
 
   export interface DividerProps {
     background?: string;
