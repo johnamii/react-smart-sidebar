@@ -10,7 +10,7 @@ import './sidebar.css'
     const styles = {
       background: props.background ?? '#757F95'
     }
-
+    
     return (
       <div className='divider-bar' style={styles}/>
     )
@@ -28,7 +28,7 @@ import './sidebar.css'
     background?: string;
 
     //default
-    ext: boolean;
+    ext?: boolean;
   }
 
   export const Tab = (props: TabProps) => {
@@ -63,7 +63,7 @@ import './sidebar.css'
     borderVisible?: boolean;
 
     //default
-    ext: boolean;
+    ext?: boolean;
     children?: React.ReactNode;
   }
 
@@ -89,7 +89,7 @@ import './sidebar.css'
         <button className='group-button' onClick={() => setCollapsed(!collapsed)} style={styles}>
           
           <b style={props.ext ? {fontSize: '150%'} : {fontSize: '100%'}}>{props.name}</b>
-          {props.ext && <img className='collapse-arrow' src='/down_arrow.png' style={rotateArrow} alt='down'/>}
+          {props.ext && <img className='collapse-arrow' src='../../assets/down_arrow.png' style={rotateArrow} alt='down'/>}
         </button>
 
         {!collapsed && 
@@ -120,7 +120,7 @@ import './sidebar.css'
     const [visible, setVisible] = useState(true);
     const [extended, setExtended] = useState(false);
 
-    const menuButton = <img src="/menu.png" alt="Hide Menu" className='menu-button' onClick={() => setVisible(!visible)}/>
+    const menuButton = <img src="../../assets/menu.png" alt="Hide Menu" className='menu-button' onClick={() => setVisible(!visible)}/>
 
     const styles: any = {
       background: props.background ?? '#1e2127',
