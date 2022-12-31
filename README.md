@@ -16,15 +16,19 @@ import { Sidebar, Group, Tab, Divider } from '@johnamii/react-smart-sidebar'
 
 ```
 
+![example_def](./screenshots//sidebar-example-compressed.png?raw=true "Default") 
+![example_ext](./screenshots//sidebar-example-extended.png?raw=true "Extended (on hover)")
+![example_hid](./screenshots//sidebar-example-hidden.png?raw=true "Hidden")
+
 # Components
 
 **Sidebar** is required, the main component.
 
 **Group** is an optional collapsible container within the sidebar with a title and tabs
 
-**Tab** is an optional icon button to put links for functions
+**Tab** is an optional icon button to put links for functions. Does not need to be placed in group.
 
-**Divider** is an optional bar that can aesthetically separate items.
+**Divider** is an optional bar that aesthetically separates items.
 
 # Example
 

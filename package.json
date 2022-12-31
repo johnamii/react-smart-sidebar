@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/johnamii"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A professional grade sidebar component to organize different links in your website.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -20,7 +20,10 @@
     "url": "git+https://github.com/johnamii/react-smart-sidebar.git"
   },
   "keywords": [
-    "sidebar"
+    "sidebar",
+    "tabs",
+    "navigator",
+    "bar"
   ],
   "author": "John Flanagan",
   "license": "MIT",
