@@ -1,10 +1,13 @@
 # react-smart-sidebar
 
 Professional, customizable React sidebar component for your website.
+
 * Fixed to left side of screen
 * Colors fully customizable
 * Disappears with button press
 * Extends/collapses when mouse hovers over / leaves.
+
+Demo visuals below
 
 # Installation
 
@@ -15,10 +18,6 @@ npm install @johnamii/react-smart-sidebar
 import { Sidebar, Group, Tab, Divider } from '@johnamii/react-smart-sidebar'
 
 ```
-
-![example_def](./screenshots//sidebar-example-compressed.png?raw=true "Default") 
-![example_ext](./screenshots//sidebar-example-extended.png?raw=true "Extended (on hover)")
-![example_hid](./screenshots//sidebar-example-hidden.png?raw=true "Hidden")
 
 # Components
 
@@ -70,3 +69,9 @@ import { Sidebar, Group, Tab, Divider } from '@johnamii/react-smart-sidebar'
 **Divider**
  * background: Color of the divider bar
 
+# Demo
+Screenshots from my personal website, where it is in use. www.johnamii.com
+
+![example_def](./screenshots//sidebar-example-compressed.png?raw=true "Default") 
+![example_ext](./screenshots//sidebar-example-extended.png?raw=true "Extended (on hover)")
+![example_hid](./screenshots//sidebar-example-hidden.png?raw=true "Hidden")
