@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import './sidebar.css'
 
+  const menuLogo = require('../../assets/menu.png');
+  const downLogo = require('../../assets/down_arrow.png')
+
   export interface DividerProps {
     background?: string;
   }
@@ -89,7 +92,7 @@ import './sidebar.css'
         <button className='group-button' onClick={() => setCollapsed(!collapsed)} style={styles}>
           
           <b style={props.ext ? {fontSize: '150%'} : {fontSize: '100%'}}>{props.name}</b>
-          {props.ext && <img className='collapse-arrow' src='../../assets/down_arrow.png' style={rotateArrow} alt='down'/>}
+          {props.ext && <img className='collapse-arrow' src={downLogo} style={rotateArrow} alt='down'/>}
         </button>
 
         {!collapsed && 
@@ -120,7 +123,7 @@ import './sidebar.css'
     const [visible, setVisible] = useState(true);
     const [extended, setExtended] = useState(false);
 
-    const menuButton = <img src="../../assets/menu.png" alt="Hide Menu" className='menu-button' onClick={() => setVisible(!visible)}/>
+    const menuButton = <img src={menuLogo} alt="Hide Menu" className='menu-button' onClick={() => setVisible(!visible)}/>
 
     const styles: any = {
       background: props.background ?? '#1e2127',
